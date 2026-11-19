@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idraulico Roma - Valmontone - Frosinone | Pronto Intervento 24/7</title>
+    <meta name="description" content="Idraulico professionista operativo da Roma a Frosinone: Valmontone, Palestrina, Colleferro, Artena, Anagni, Ferentino e dintorni. Pronto intervento urgente 24/7. Chiama: 379 384 4605">
+    
+    <!-- SEO Schema për Google Business (Korridori Roma - Frosinone) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Plumber",
+      "name": "Idraulico Roma Lazio - Maksi.C",
+      "telephone": "+393793844605",
+      "areaServed": [
+        "Roma", "Roma Sud", "Roma Est", "San Cesareo", "Zagarolo", "Palestrina", 
+        "Labico", "Valmontone", "Artena", "Colleferro", "Segni", "Gavignano", 
+        "Paliano", "Anagni", "Ferentino", "Fiuggi", "Frosinone"
+      ],
+      "openingHours": "Mo-Su 00:00-23:59",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "7"
+      }
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #0f4c81;
+            --secondary: #1e88e5;
+            --whatsapp: #25D366;
+            --call: #e53935;
+            --dark: #1a202c;
+            --light: #f7fafc;
+            --gray: #4a5568;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        body { color: var(--dark); background-color: var(--light); line-height: 1.6; padding-bottom: 70px; }
+        
+        /* Header / Hero */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, #092d4d 100%);
+            color: white;
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        header h1 { font-size: 2.1rem; margin-bottom: 0.5rem; line-height: 1.2; }
+        header p { font-size: 1.1rem; opacity: 0.9; max-width: 650px; margin: 0 auto 1.5rem; }
+        
+        .cta-group { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+        .btn {
+            display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+            padding: 0.9rem 1.6rem; border-radius: 8px; text-decoration: none;
+            font-weight: 700; font-size: 1.05rem; color: white; transition: transform 0.2s;
+        }
+        .btn:active { transform: scale(0.97); }
+        .btn-call { background-color: var(--call); box-shadow: 0 4px 12px rgba(229,57,53,0.3); }
+        .btn-wa { background-color: var(--whatsapp); box-shadow: 0 4px 12px rgba(37,211,102,0.3); }
+
+        /* Container */
+        .container { max-width: 1000px; margin: 0 auto; padding: 2.5rem 1.5rem; }
+        .section-title { text-align: center; font-size: 1.8rem; color: var(--primary); margin-bottom: 0.5rem; }
+        .section-sub { text-align: center; color: var(--gray); margin-bottom: 2rem; }
+
+        /* Services Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; }
+        .card {
+            background: white; padding: 1.5rem; border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06); border-left: 4px solid var(--secondary);
+        }
+        .card h3 { font-size: 1.15rem; margin-bottom: 0.4rem; color: var(--dark); }
+        .card p { font-size: 0.95rem; color: var(--gray); }
+
+        /* Areas */
+        .areas-box {
+            background: white; padding: 2rem; border-radius: 12px; text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .tags { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; margin-top: 1.2rem; }
+        .tag {
+            background: #edf2f7; color: var(--primary); padding: 0.45rem 0.95rem;
+            border-radius: 20px; font-weight: 600; font-size: 0.9rem;
+        }
+
+        /* Gallery */
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+        .photo-slot {
+            background: #e2e8f0; border-radius: 10px; height: 220px; overflow: hidden;
+            display: flex; align-items: center; justify-content: center; color: var(--gray);
+            font-size: 0.9rem; text-align: center; padding: 1rem; border: 2px dashed #cbd5e0;
+        }
+        .photo-slot img { width: 100%; height: 100%; object-fit: cover; border: none; }
+
+        /* Reviews */
+        .rating-banner {
+            text-align: center; background: #fffbeb; border: 1px solid #fde68a;
+            padding: 1rem; border-radius: 10px; margin-bottom: 1.5rem; font-weight: 700;
+        }
+        .stars { color: #f59e0b; font-size: 1.2rem; }
+        .review-card {
+            background: white; padding: 1.5rem; border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .review-author { font-weight: 700; margin-top: 0.8rem; color: var(--primary); font-size: 0.9rem; }
+
+        /* Footer */
+        footer { background: var(--dark); color: #cbd5e0; text-align: center; padding: 2rem 1rem; font-size: 0.9rem; }
+
+        /* Sticky Mobile Bar */
+        .sticky-bar {
+            position: fixed; bottom: 0; left: 0; right: 0; background: white;
+            display: flex; padding: 0.6rem; gap: 0.6rem; box-shadow: 0 -2px 10px rgba(0,0,0,0.12);
+            z-index: 100;
+        }
+        .sticky-bar .btn { flex: 1; padding: 0.75rem; font-size: 1rem; }
+        @media (min-width: 768px) { .sticky-bar { display: none; } body { padding-bottom: 0; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="badge">🚨 Pronto Intervento Urgente 24/7 • Roma – Frosinone</div>
+        <h1>Idraulico Roma Lazio</h1>
+        <p>Maksi.C - Idro Impianti. Assistenza idraulica immediata, riparazioni urgenti e ristrutturazioni su tutta l'area da Roma a Frosinone.</p>
+        <div class="cta-group">
+            <a href="tel:+393793844605" class="btn btn-call">📞 Chiama: 379 384 4605</a>
+            <a href="https://wa.me." target="_blank" class="btn btn-wa">💬 Scrivici su WhatsApp</a>
+        </div>
+    </header>
+
+    <section class="container">
+        <h2 class="section-title">I Nostri Servizi</h2>
+        <p class="section-sub">Interventi urgenti 24 ore su 24 e lavori completi con materiali certificati</p>
+        <div class="grid">
+            <div class="card">
+                <h3>🚨 Pronto Intervento Urgente 24/7</h3>
+                <p>Arrivo rapido per emergenze idrauliche, tubi rotti, otturazioni e allagamenti a qualsiasi ora.</p>
+            </div>
+            <div class="card">
+                <h3>💧 Ricerca e Riparazione Perdite</h3>
+                <p>Individuazione precisa e riparazione di perdite d'acqua occulte senza demolizioni inutili.</p>
+            </div>
+            <div class="card">
+                <h3>🛁 Ristrutturazione Completa Bagno</h3>
+                <p>Rifacimento bagno chiavi in mano, inclusi impianti, sanitari, rubinetteria e box doccia.</p>
+            </div>
+            <div class="card">
+                <h3>🔥 Caldaie e Scaldabagni</h3>
+                <p>Installazione, sostituzione e manutenzione di caldaie e scaldabagni di ogni marca.</p>
+            </div>
+            <div class="card">
+                <h3>🔧 Impianti Idraulici Certificati</h3>
+                <p>Progettazione, installazione e riparazione di impianti idrici e termici a norma di legge.</p>
+            </div>
+            <div class="card">
+                <h3>☀️ Pannelli Solari Termici</h3>
+                <p>Installazione di sistemi solari termici per il risparmio energetico e acqua calda sanitaria.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="areas-box">
+            <h2 class="section-title">Zone Coperte: Da Roma a Frosinone</h2>
+            <p class="section-sub">Interveniamo rapidamente a domicilio in tutti i comuni lungo l'asse Roma – Frosinone e dintorni</p>
+            <div class="tags">
+                <span class="tag">📍 Roma (Sud / Est)</span>
+                <span class="tag">📍 San Cesareo</span>
+                <span class="tag">📍 Zagarolo</span>
+                <span class="tag">📍 Palestrina</span>
+                <span class="tag">📍 Labico</span>
+                <span class="tag">📍 Valmontone</span>
+                <span class="tag">📍 Artena</span>
+                <span class="tag">📍 Colleferro</span>
+                <span class="tag">📍 Segni</span>
+                <span class="tag">📍 Gavignano</span>
+                <span class="tag">📍 Paliano</span>
+                <span class="tag">📍 Anagni</span>
+                <span class="tag">📍 Ferentino</span>
+                <span class="tag">📍 Fiuggi</span>
+                <span class="tag">📍 Frosinone e Provincia</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="section-title">I Nostri Lavori</h2>
+        <p class="section-sub">Alcuni esempi delle nostre installazioni e ristrutturazioni</p>
+        <div class="gallery">
+            <div class="photo-slot">Inserisci qui Foto 1<br>(es. Ristrutturazione bagno)</div>
+            <div class="photo-slot">Inserisci qui Foto 2<br>(es. Installazione caldaia)</div>
+            <div class="photo-slot">Inserisci qui Foto 3<br>(es. Impianto idraulico)</div>
+            <div class="photo-slot">Inserisci qui Foto 4<br>(es. Pannelli solari)</div>
+        </div>
+    </section>
+
+    <section class="container">
